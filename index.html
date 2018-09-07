@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <!--table+-->
+    <table border=1px>
+        <!--tr>(td>b{Kolumna $@})*3-->
+        
+        <tr>
+            <td><b>Kolumna 1</b></td>
+            <td><b>Kolumna 2</b></td>
+            <td><b>Kolumna 3</b></td>
+        </tr>
+        
+        <!--NIE tr>td*3{wiersz $@1*3}+tr>td*3{wiersz $@4*6}+tr>td*3{wiersz $@7*9}-->
+        <!--(tr>td*3{wiersz$@-*10})*3-->
+        <tr>
+            <td>wiersz 1</td>
+            <td>wiersz 2</td>
+            <td>wiersz 3</td>
+        </tr>
+        <tr>
+            <td>wiersz 4</td>
+            <td>wiersz 5</td>
+            <td>wiersz 6</td>
+        </tr>
+        <tr>
+            <td>wiersz 7</td>
+            <td>wiersz 8</td>
+            <td>wiersz 9</td>
+        </tr>      
+        
+    <!--(tr>td{wiersz 0}*3)+(tr>td{wiersz 0}*3)+(tr>td{wiersz 0}*3)-->
+    
+    </table>
+</body>
+</html>
